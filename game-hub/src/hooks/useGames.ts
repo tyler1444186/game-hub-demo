@@ -14,6 +14,7 @@ const useGames = (gameQuery: GameQuery) =>
   useData<Game>(
     '/games',
     {
+      // Where everything gets passed in the back end
       params: {
         genres: gameQuery.genre?.id,
         platforms: gameQuery.platform?.id,
