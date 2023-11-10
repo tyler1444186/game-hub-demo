@@ -7,6 +7,7 @@ export default defineConfig({
   optimizeDeps: {
     // include: ['linked-dep'],
   },
+
   build: {
     commonjsOptions: {
       transformMixedEsModules: true,
